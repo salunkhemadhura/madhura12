@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL docker="tomcat"
+LABEL docker="Tomcat"
 WORKDIR /opt
 RUN yum install java -y
 RUN https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100.tar.gz ./
